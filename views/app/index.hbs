@@ -1,0 +1,29 @@
+  <div class="explore">explore</div>
+
+{{#if ideas}}
+ 
+    {{#each ideas}}
+   
+      <div class="box">
+       
+                  <a class="box-idea" href="/idea/{{id}}">
+            {{ content }}
+          </a>
+
+
+
+        <div class="box-info">
+          <div>{{ author.email }}</div>
+         
+          <span class="idea_opinions">{{ opinions.length }} opinion(s)</span>
+        </div>
+
+
+      </div>
+      <div class="space">
+
+      </div>
+    {{/each}}
+
+{{/if}}
+

@@ -1,0 +1,449 @@
+@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+
+body {
+  background-color: ghostwhite;
+  font-family: 'Special Elite', cursive;
+  color: black;
+
+}
+
+
+.signup-form {
+    border: 3px solid black;
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+
+}
+.title {
+
+  margin-top: 73px;
+  display: flex;
+  font-size: 8em;
+  justify-content: center;
+
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.emoji {
+  display: flex;
+
+  justify-content: center;
+}
+
+.logsign {
+
+  margin-top: 123px;
+  display: flex;
+
+  justify-content: center;
+  color: black;
+  
+
+
+}
+
+
+.userstuff {
+
+  margin-top: 60px;
+  display: flex;
+
+  justify-content: center;
+  color: black;
+  margin-bottom: 73px;
+
+
+}
+/* 
+.stuff {
+  margin-right: 200px;
+} */
+
+.l {
+  margin-right: 50px;
+  background-color: black;
+  border: 3px solid black;
+  padding: 10px;
+ 
+  color: ghostwhite;
+}
+
+.s {
+  border: 3px solid black;
+  padding: 10px;
+  background-color: black;
+
+  color: ghostwhite;
+}
+
+.q {
+  margin-right: 40px;
+  border: 3px solid black;
+  padding: 10px;
+/* 
+  background-color: black;
+  color: ghostwhite; */
+}
+
+.p {
+  margin-right: 40px;
+  border: 3px solid black;
+  padding: 10px;
+  /* background-color: black;
+  color: ghostwhite; */
+
+}
+
+.p:hover {
+  transform: rotate(5deg);
+  background-color: gray;
+}
+
+.h:hover {
+  transform: rotate(5deg);
+  background-color: gray;
+}
+
+.q:hover {
+  transform: rotate(5deg);
+  background-color: gray;
+}
+
+
+.lo:hover {
+  transform: rotate(5deg);
+  background-color: gray;
+}
+
+.h {
+  margin-right: 40px;
+  border: 3px solid black;
+  padding: 10px;
+  /* background-color: black;
+  color: blue; */
+}
+
+.lo {
+  border: 3px solid black;
+  padding: 10px;
+  /* background-color: black;
+  color: ghostwhite; */
+
+}
+
+.box {
+
+  
+  padding: 20px;
+  max-width: 500px;
+  
+  font-family: 'Special Elite', cursive;
+
+border: 3px solid black;
+margin: auto;
+
+}
+
+
+.quote {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+
+
+
+}
+
+.ideas {
+
+  padding: 20px;
+  max-width: 500px;
+  
+  font-family: 'Special Elite', cursive;
+
+border: 3px solid black;
+margin: auto;
+
+}
+
+.box-info {
+
+  margin-top: 20px;
+  color: black;
+ 
+ 
+
+}
+.idea_opinions {
+  color: gray;
+}
+.opinion-post {
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  border-right: 3px solid black;
+  border-left: 3px solid black;
+  padding: 20px;
+    margin-bottom: 10px;
+    margin-left: 900px;
+    max-width: 400px;
+}
+
+.idea-with {
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  border-right: 3px solid black;
+  border-left: 3px solid black;
+padding: 20px;
+
+  margin-left: 800px;
+  max-width: 500px;
+}
+.no-ideas {
+  margin-left: 110px;
+}
+.opinions-title {
+  border-top: 0px solid black;
+  border-bottom: 0px solid black;
+  border-right: 3px solid black;
+  border-left: 3px solid black;
+  padding: 10px;
+  margin-top: 25px;
+    margin-left: 900px;
+    max-width: 420px;
+    color: ghostwhite;
+    background-color: black;
+}
+
+.post-opinion {
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  border-right: 3px solid black;
+  border-left: 3px solid black;
+  padding: 20px;
+    margin-bottom: 25px;
+    margin-left: 900px;
+    max-width: 400px;
+
+}
+
+
+.login {
+
+
+  display: flex;
+justify-content: center
+}
+/* .container {
+  background-color: blue;
+} */
+.login-form {
+
+
+  display: flex;
+
+  justify-content: center;
+  
+}
+
+.h4 {
+  margin-right: 100px;
+}
+
+.space {
+
+  padding: 50px;
+}
+a.l:hover {
+  background-color: ghostwhite;
+  color: black;
+}
+
+a.s:hover {
+  background-color: ghostwhite;
+  color: black;
+}
+
+input.login-btn:hover {
+  background-color: ghostwhite;
+  color: black;
+}
+input.signup-btn:hover {
+  background-color: ghostwhite;
+  color: black;
+}
+
+.login-password {
+  margin-right: 30px;
+}
+
+.login-email {
+  margin-right: 30px;
+}
+
+.word-email {
+  margin-right: 20px;
+}
+
+.word-password {
+  margin-right: 20px;
+}
+
+.signup {
+
+
+  display: flex;
+justify-content: center;
+}
+
+/* .signup-form {
+
+
+  display: flex;
+
+  justify-content: center;
+  
+} */
+
+.signup-password {
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+
+.stuff {
+  margin-bottom: 100px;
+}
+.signup-email {
+  margin-right: 30px;
+}
+
+.word-email {
+  margin-right: 20px;
+}
+
+.word-password {
+  margin-right: 20px;
+}
+
+.login-button {
+
+  margin-left: 20px;
+}
+
+.signup-button {
+
+
+  margin-left: 20px;
+}
+
+.login-btn {
+  border: 3px solid black;
+  padding: 10px;
+  /* background-color:  #910000; */
+
+  font-family: 'Special Elite', cursive;
+  color: ghostwhite;
+  background-color: black;
+}
+
+.signup-btn {
+  border: 3px solid black;
+  padding: 10px;
+  /* background-color: #910000; */
+
+  font-family: 'Special Elite', cursive;
+  color: ghostwhite;
+  background-color: black;
+}
+
+.login-btn:active {
+
+
+  box-shadow: 0 3px black;
+}
+
+.l:active {
+
+
+  box-shadow: 0 3px black;
+}
+
+
+.s:active {
+
+
+  box-shadow: 0 3px black;
+}
+
+ #newdemm {
+ background-color: black;
+}
+.your-ideas {
+  max-width: 500px;
+ margin: auto;
+
+}
+.newidea {
+  display: flex;
+  max-width: 300px;
+  border: 3px solid black;
+  justify-content: center;  
+
+
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin: auto;
+}
+
+.newidea-box {
+
+
+  max-width: 500px;
+  margin-bottom: 20px;
+}
+
+.choose-username {
+  margin-bottom: 20px;
+}
+
+.newidea-title {
+  display: flex;
+
+  justify-content: center;  
+  margin-bottom: 50px;
+
+  background-color: black;
+  color: white;
+
+  padding: 10px;
+
+}
+
+.yourideas-title {
+  display: flex;
+
+  justify-content: center;  
+  margin-bottom: 50px;
+
+  background-color: black;
+  color: white;
+
+  padding: 10px;
+
+}
+
+.explore {
+  display: flex;
+
+  justify-content: center;  
+  margin-bottom: 50px;
+
+  background-color: black;
+  color: white;
+
+  padding: 10px;
+}

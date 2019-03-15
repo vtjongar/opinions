@@ -1,0 +1,13 @@
+  <div class="yourideas-title">your ideas</div>
+<section class="your-ideas">
+  {{#if user.ideas}}
+    <div class="ideas">
+      {{#each user.ideas}}
+         {{> 'idea'}}
+      {{/each}}
+    </div>
+  {{else}}
+    <div class="no-ideas">you haven't posted any ideas yet!</div>
+  {{/if}}
+</section>
+

@@ -1,0 +1,26 @@
+
+  <div class="newidea-title">what's your idea?</div>
+<section class="newidea">
+
+
+  <form action="/idea" method="post" class="idea-form">
+    <div class="newidea-box">
+      <textarea name="idea[content]" placeholder="your idea here..."></textarea>
+    </div>
+
+    <div class="choose-username">
+      <select name="author" id="author">
+        <option value="" disabled selected>username</option>
+        {{#each users}}
+          <option value="{{id}}">{{email}}</option>
+        {{/each}}
+      </select>
+    </div>
+
+    <div>
+      <input type="submit" value="post" class="btn">
+    </div>
+  </form>
+
+
+</section>

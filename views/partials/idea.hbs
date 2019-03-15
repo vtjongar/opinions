@@ -1,0 +1,16 @@
+<div>
+  <div>
+    <a href="/idea/{{id}}">
+      {{ content }}
+    </a>
+  </div>
+  <div>
+    <a href="/user/{{ author.id }}">{{ author.email }}</a>
+  
+    <span class="idea_opinions">{{ opinions.length }}  </span> 
+    <form class="" action="/idea/{{id}}?_method=DELETE" method="POST">
+      <button type="submit" name="button">remove</button>
+    </form>
+  </div>
+</div>
+

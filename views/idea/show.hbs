@@ -1,0 +1,38 @@
+
+<div class="idea-with">
+  {{> 'idea'}}
+</div>
+ <div class="opinions-title">OPINIONs</div>
+{{#if opinions.length}}
+  {{#each opinions}}
+    <div>
+      <div>
+       
+        <div class="opinion-post">
+          {{ content }}
+        </div>
+      </div>
+      <div>
+        <a href="/user/{{ author.id }}">{{ author.email }}</a>
+
+        <span class="idea_opinions">{{ opinions.length }}</span>
+      </div>
+    </div>
+  
+  {{/each}}
+{{/if}}
+
+<div>
+  <div class="post-opinion">
+    <h4>post an opinion:</h6>
+    <form method="POST" action="/idea/{{id}}?_method=PUT">
+      <p>
+        <label for="content"></label>
+        <input type="text" name="content" id="">
+      </p>
+      <p>
+        <input class="btn" type="submit" value="Submit">
+      </p>
+    </form>
+  </div>
+</div>
